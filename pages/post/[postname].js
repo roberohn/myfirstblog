@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
