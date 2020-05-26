@@ -5,13 +5,16 @@ import PostList from '../components/PostList'
 
 const Index = ({ posts, title, description, ...props}) => {
   return (
-    <Layout pageTitle={title}>
-      <h1 className="title">Welcome to my blog!</h1>
-      <p className="description">{description}</p>
-      <main>        
-        <PostList posts={posts} />
-      </main>
-    </Layout>
+    <div>
+      <Layout pageTitle={title}>
+        <h1 class="display-1 text-center">Gems</h1>
+        <h5>Release Notes</h5>
+        <p class="text-left">{description}</p>
+        <main class="text-left">
+          <PostList posts={posts} />
+        </main>
+      </Layout>
+    </div>
   )
 }
 

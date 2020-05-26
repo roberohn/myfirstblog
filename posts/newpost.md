@@ -1,10 +1,29 @@
 ---
-title: 'New post'
+title: 'Release 4 Minor'
 author: 'John'
+date: '01/06/2020'
 ---
 
-This is another blog post I've created as a test.
+##### IMPROVEMENTS
+- Item 1
+- Item 2
+- Item 3
+- Item 4
 
-- Haha
-- Giggles
-- I'm in another list
+##### FIXED
+- Item 1
+- Item 2
+- Item 3
+- Item 4
+
+##### NEW
+- Item 1
+- Item 2
+- Item 3
+- Item 4
+
+##### SECURITY
+- Item 1
+- Item 2
+- Item 3
+- Item 4

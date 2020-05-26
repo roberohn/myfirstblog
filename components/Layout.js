@@ -8,10 +8,10 @@ export default function Layout({ children, pageTitle, ...props}) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>{pageTitle}</title>
             </Head>
-            <section className="layout">
+            <section class="layout">
 
                 <Header />
-                <div className="content">{children}</div>
+                <div class="content container">{children}</div>
             </section>
             <footer>Built by me!</footer>
         </>
